@@ -53,6 +53,7 @@ while clue != ["1", "1", "1", "1", "1"]:
     if ghicit in word_list:
         num_de_incercari += 1
         clue = procesDeGhicire(raspuns, ghicit)
+        print(clue)
         lista = cuvinteRamase(ghicit, clue, lista)
     else:
         print("Cuvantul nu este in lista")
